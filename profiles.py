@@ -52,6 +52,7 @@ NO_QUIRKS = QuirkConfig(
     reject_connection_timeout_change=False,
     stop_transaction_on_reconnect=False,
     meter_values_as_strings=False,
+    remote_start_needs_cable=False,
 )
 
 
